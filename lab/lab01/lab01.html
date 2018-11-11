@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>Nguyễn Đình Thi</title>
+<link rel="stylesheet" href="./normalize.css">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./content.css">
+<link href="../../css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+	<div id="container">
+		<div id="menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Excercises</a>
+					<ul class="sub-menu">
+						<li><a href="#">Lab01</a></li>
+						<li><a href="#">Lab02</a></li>
+						<li><a href="#">Lab03</a></li>
+						<li><a href="#">Lab04</a></li>
+						<li><a href="#">Lab05</a></li>
+					</ul></li>
+			</ul>
+		</div>
+		<div id="content">
+			<div id="excercises">
+				<ul class="nav nav-tabs" id="myTab" role="tablist">
+					<li class="nav-item"><a class="nav-link active" id="home-tab"
+						data-toggle="tab" href="#home" role="tab" aria-controls="home"
+						aria-selected="true">Home</a></li>
+					<li class="nav-item"><a class="nav-link" id="profile-tab"
+						data-toggle="tab" href="#profile" role="tab"
+						aria-controls="profile" aria-selected="false">Profile</a></li>
+					<li class="nav-item"><a class="nav-link" id="contact-tab"
+						data-toggle="tab" href="#contact" role="tab"
+						aria-controls="contact" aria-selected="false">Contact</a></li> 
+				</ul>
+				<div class="tab-content" id="myTabContent">
+					<div class="tab-pane fade show active content_wrapper" id="home" role="tabpanel"
+						aria-labelledby="home-tab">
+						<a href="../../img/_DSC0001.JPG" download>
+							<img src="../../img/_DSC0001.JPG" alt="W3Schools" width="50%" height="50%">
+						</a>
+					</div>
+					<div class="tab-pane fade" id="profile" role="tabpanel"
+						aria-labelledby="profile-tab">
+						Nguyễn Đình Thi	
+					</div>
+					<div class="tab-pane fade" id="contact" role="tabpanel"
+						aria-labelledby="contact-tab">
+						ABCD	
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer" style='width:100%'>
+			<p>Copyright &copy; 2018 by Thi Nguyen</p>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="../../js/bootstrap.min.js"></script>
+</body>
+</html>
